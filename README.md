@@ -1,0 +1,1 @@
+This project is a single home page responsive layout created using Bootstrap 4, and SASS.
