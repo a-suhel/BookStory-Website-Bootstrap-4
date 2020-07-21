@@ -1,0 +1,169 @@
+$primary: #3292a6;
+$primary-overlay: rgba(50, 146, 166, 0.80);
+body{
+    margin-top:106px;
+}
+
+.navbar{
+    box-shadow: 2px 2px 5px $primary;
+    opacity: 0.9;
+    background: #fff;
+
+    .nav-item{
+        font-size: 1.2rem;
+        padding-right: 1.3rem;
+        
+    }
+}
+
+
+#main-area{
+    position: relative;
+    background: url(../img/books.jpg);
+    min-height: 680px;
+    // filter: drop-shadow(0 0 10px black);
+    
+    .primary-overlay{
+        background: $primary-overlay;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+    img{
+        border-radius: 3px;
+        filter: drop-shadow(0 0 3px #333);
+    }
+
+
+}
+
+.bs{
+    box-shadow: 4px 4px 7px grey;
+}
+
+#browse{
+    background: #bfdae0;
+}
+
+.card-body > img{
+    
+    border-radius: 10px;
+}
+
+#browse .card-body > img:hover{
+    filter: drop-shadow(0 0 7px rgb(22, 20, 20));
+    cursor: pointer;
+    
+}
+
+.info-header{
+    width: 50%;
+    margin: auto;
+    border-bottom: 1px solid #ddd;
+}
+
+@media(max-width: 992px){
+    .mb-resp{
+        margin-bottom: 2rem;
+    }
+
+    .navbar
+    {
+        .nav-item, h3{
+            font-size: 1rem;
+        }
+
+        .nav-item > .btn{
+            font-size: 1rem;
+        }
+
+        
+
+    } 
+        
+}
+
+.card-link{
+
+    color:#28778d;
+}
+// .f-facebook{
+//     color: $primary;
+// }
+// .fa-twitter{
+//     color:#5d9baa;
+// }
+// .fa-instagram{
+//     color:#d41795;
+// }
+
+#authors{
+
+    .card{
+        background:#434547;
+        color:rgb(231, 230, 230);
+        border-bottom: 7px solid $primary;
+
+    }
+    .card:hover{
+        background: $primary;
+        color:#fff;
+        border-bottom: 7px solid $primary;
+    }
+    .fab{
+        color:#dbd9d9;
+    }
+
+}
+
+
+
+
+
+
+@media(max-width: 768px){
+    #main-area{
+        min-height: 600px;
+        h1{
+            font-size: 2.8rem;
+          }   
+    }
+
+    #browse{
+        h2{
+            font-size: 2rem;
+    
+        }
+        .card-title{
+            font-size: 0.6rem;
+        }
+    }
+
+    .mb-resp{
+        margin-bottom: 1rem;
+    }
+
+    .nav-link{
+        border-bottom: 2px solid $primary;
+        margin-bottom: 2px;
+
+        .btn{
+            border-bottom: none;
+            
+        }
+         
+    }
+    
+}
+
+
+// * {
+//     background: #000 !important;
+//     color: #0f0 !important;
+//     outline: solid #f00 1px !important;
+//   } 
+
+
+
