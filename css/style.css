@@ -83,3 +83,6 @@ body {
     margin-bottom: 2px; }
     .nav-link .btn {
       border-bottom: none; } }
+@media (max-width: 1199px) {
+  .carousel-custom-margin {
+    margin-left: auto !important; } }

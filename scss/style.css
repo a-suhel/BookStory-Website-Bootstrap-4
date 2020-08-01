@@ -1,3 +1,88 @@
+body {
+  margin-top: 106px; }
 
+.navbar {
+  box-shadow: 2px 2px 5px #3292a6;
+  opacity: 0.9;
+  background: #fff; }
+  .navbar .nav-item {
+    font-size: 1.2rem;
+    padding-right: 1.3rem; }
 
-/*# sourceMappingURL=style.css.map */
+#main-area {
+  position: relative;
+  background: url(../img/books.jpg);
+  min-height: 680px; }
+  #main-area .primary-overlay {
+    background: rgba(50, 146, 166, 0.8);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+  #main-area img {
+    border-radius: 3px;
+    filter: drop-shadow(0 0 3px #333); }
+
+.bs {
+  box-shadow: 4px 4px 7px grey; }
+
+#browse {
+  background: #bfdae0; }
+
+.card-body > img {
+  border-radius: 10px; }
+
+#browse .card-body > img:hover {
+  filter: drop-shadow(0 0 7px #161414);
+  cursor: pointer; }
+
+.info-header {
+  width: 50%;
+  margin: auto;
+  border-bottom: 1px solid #ddd; }
+
+@media (max-width: 992px) {
+  .mb-resp {
+    margin-bottom: 2rem; }
+
+  .navbar .nav-item, .navbar h3 {
+    font-size: 1rem; }
+  .navbar .nav-item > .btn {
+    font-size: 1rem; } }
+.card-link {
+  color: #28778d; }
+
+#authors .card {
+  background: #434547;
+  color: #e7e6e6;
+  border-bottom: 7px solid #3292a6; }
+#authors .card:hover {
+  background: #3292a6;
+  color: #fff;
+  border-bottom: 7px solid #3292a6; }
+#authors .fab {
+  color: #dbd9d9; }
+
+@media (max-width: 768px) {
+  #main-area {
+    min-height: 600px; }
+    #main-area h1 {
+      font-size: 2.8rem; }
+
+  #browse h2 {
+    font-size: 2rem; }
+  #browse .card-title {
+    font-size: 0.6rem; }
+
+  .mb-resp {
+    margin-bottom: 1rem; }
+
+  .nav-link {
+    border-bottom: 2px solid #3292a6;
+    margin-bottom: 2px; }
+    .nav-link .btn {
+      border-bottom: none; } }
+@media (max-width: 1199px) {
+  .carousel-custom-margin {
+    margin-left: 1.5rem; } }
